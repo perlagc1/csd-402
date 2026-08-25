@@ -1,4 +1,5 @@
- * Name: Perla Garcia Cavazos
+/*
+* Name: Perla Garcia Cavazos
  * Date: August 24, 2026
  * Assignment: Module 4 – Overloaded Average Methods
  */
@@ -97,5 +98,16 @@ public class GarciaCavazos_Mod4_CSD402 {
             System.out.print(num + " ");
         }
         System.out.println();
-    }
 }
+ {
+
+    short[] shortArray = {10, 20, 30};
+    int[] intArray = {5, 15, 25, 35};
+    long[] longArray = {100L, 200L, 300L, 400L, 500L};
+    double[] doubleArray = {2.5, 4.5, 6.5, 8.5, 10.5, 12.5};
+
+    System.out.println("Short Array Average: " + average(shortArray));
+    System.out.println("Int Array Average: " + average(intArray));
+    System.out.println("Long Array Average: " + average(longArray));
+    System.out.println("Double Array Average: " + average(doubleArray));
+ }}
