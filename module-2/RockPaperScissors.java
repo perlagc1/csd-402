@@ -1,3 +1,16 @@
+/*
+ * Author: Perla Garcia Cavazos
+ * Course: CSD 402
+ * Module: 2.2
+ * Assignment: Rock-Paper-Scissors
+ * Date: October 9, 2026
+ *
+ * Description:
+ * This program simulates a Rock-Paper-Scissors game.
+ * The computer randomly selects Rock, Paper, or Scissors.
+ * The user enters a number from 1 to 3, and the program
+ * displays both selections and determines the winner.
+ */
 import java.util.Random;
 import java.util.Scanner;
 
